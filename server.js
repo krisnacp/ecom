@@ -15,6 +15,8 @@ dotenv.config();
 
 //databse config
 connectDB();
+//es configure
+const __filename = fileURLtoPath(impot.meta.url);
 
 //rest object
 const app = express();
